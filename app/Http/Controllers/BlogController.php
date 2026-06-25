@@ -79,7 +79,7 @@ class BlogController extends Controller
 
     private function notification(Blog $blog)
     {
-        Http::post('https://discord.com/api/webhooks/1466060930298417319/dwp_dUaoBEVfGonX6C26D-r1qe27ytcUGUt5DUZWPZXBzSQ2xuZ-ydyXpZF0wmcfNMx5', [
+        Http::post('', [
             'content' => "@everyone New blog!",
             'embeds' => [
                 [
